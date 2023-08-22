@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TapAdditionsKitV2"
-  spec.version      = "0.0.15"
+  spec.version      = "0.0.16"
   spec.summary      = "Useful additions for native iOS frameworks"
 
   # This description is used to generate tags and improve search results.
@@ -63,7 +63,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.platform     = :ios
-  spec.platform     = :ios, "12.0"
+  spec.platform     = :ios, "11.0"
   spec.swift_versions = ['4.0', '4.2', '5.0']
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -131,4 +131,6 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  spec.dependency "TapSwiftFixes"
+
 end
