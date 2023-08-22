@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TapAdditionsKitV2"
-  spec.version      = "0.0.9"
+  spec.version      = "0.0.13"
   spec.summary      = "Useful additions for native iOS frameworks"
 
   # This description is used to generate tags and improve search results.
