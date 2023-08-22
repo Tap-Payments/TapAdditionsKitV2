@@ -1,22 +1,22 @@
 PODS:
-  - TapSwiftFixes (1.0.9):
-    - TapSwiftFixes/CoreGraphics (= 1.0.9)
-    - TapSwiftFixes/Exceptions (= 1.0.9)
-    - TapSwiftFixes/Threading (= 1.0.9)
-  - TapSwiftFixes/CoreGraphics (1.0.9)
-  - TapSwiftFixes/Exceptions (1.0.9)
-  - TapSwiftFixes/Threading (1.0.9)
+  - TapSwiftFixesV2 (1.0.3):
+    - TapSwiftFixesV2/CoreGraphics (= 1.0.3)
+    - TapSwiftFixesV2/Exceptions (= 1.0.3)
+    - TapSwiftFixesV2/Threading (= 1.0.3)
+  - TapSwiftFixesV2/CoreGraphics (1.0.3)
+  - TapSwiftFixesV2/Exceptions (1.0.3)
+  - TapSwiftFixesV2/Threading (1.0.3)
 
 DEPENDENCIES:
-  - TapSwiftFixes
+  - TapSwiftFixesV2
 
 SPEC REPOS:
   trunk:
-    - TapSwiftFixes
+    - TapSwiftFixesV2
 
 SPEC CHECKSUMS:
-  TapSwiftFixes: db2aeb21942dd81ee051a31ed319dab0d03547a2
+  TapSwiftFixesV2: ea726f752b6259d9e44624039fd6bad94b2a8633
 
-PODFILE CHECKSUM: cbe5430f754387d441c5e13e36c1c830c8bb31b7
+PODFILE CHECKSUM: f39500a307c33bf4213a26bf7b8eb48088b1950c
 
 COCOAPODS: 1.12.1

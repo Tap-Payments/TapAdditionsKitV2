@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2A84B9D796D0D04B87F4B7C8561AAF92"
-               BuildableName = "TapSwiftFixes.framework"
-               BlueprintName = "TapSwiftFixes"
+               BlueprintIdentifier = "E216967D71699A6EF43A16A4B8B6D624"
+               BuildableName = "TapSwiftFixesV2.framework"
+               BlueprintName = "TapSwiftFixesV2"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

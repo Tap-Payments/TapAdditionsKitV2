@@ -5,7 +5,7 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
-import TapSwiftFixes
+import TapSwiftFixesV2
 import class	UIKit.UITableView.UITableView
 
 /// Useful extension for UITableView

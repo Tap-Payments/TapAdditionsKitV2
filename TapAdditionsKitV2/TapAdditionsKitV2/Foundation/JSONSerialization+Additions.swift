@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import TapSwiftFixes
+import TapSwiftFixesV2
 
 /// JSON Serialization protocol.
 public protocol JSONSerializable {
