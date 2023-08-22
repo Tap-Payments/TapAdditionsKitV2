@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E1A9B843BB101A9958FC757D /* Pods_TapAdditionsKitV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17899EBECD762AFFACD77185 /* Pods_TapAdditionsKitV2.framework */; };
+		E808C64B2A94EB6500E56B26 /* ThreadingFixes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E808C64A2A94EB6500E56B26 /* ThreadingFixes.swift */; };
 		E8CC35F32519CFDF0067088C /* TapAdditionsKitV2.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CC35F12519CFDF0067088C /* TapAdditionsKitV2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8CC36572519D0AE0067088C /* NSObject+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CC36052519D0AE0067088C /* NSObject+Additions.swift */; };
 		E8CC36582519D0AE0067088C /* Locale+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CC36072519D0AE0067088C /* Locale+Additions.swift */; };
@@ -83,8 +83,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		17899EBECD762AFFACD77185 /* Pods_TapAdditionsKitV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapAdditionsKitV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		30F723EC7E6F268C3E1A8DF9 /* Pods-TapAdditionsKitV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapAdditionsKitV2.release.xcconfig"; path = "Target Support Files/Pods-TapAdditionsKitV2/Pods-TapAdditionsKitV2.release.xcconfig"; sourceTree = "<group>"; };
+		E808C64A2A94EB6500E56B26 /* ThreadingFixes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadingFixes.swift; sourceTree = "<group>"; };
 		E8CC35EE2519CFDF0067088C /* TapAdditionsKitV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapAdditionsKitV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8CC35F12519CFDF0067088C /* TapAdditionsKitV2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapAdditionsKitV2.h; sourceTree = "<group>"; };
 		E8CC35F22519CFDF0067088C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -159,7 +158,6 @@
 		E8CC36532519D0AE0067088C /* KeyedDecodingContainer+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KeyedDecodingContainer+Additions.swift"; sourceTree = "<group>"; };
 		E8CC36542519D0AE0067088C /* Sequence+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sequence+Additions.swift"; sourceTree = "<group>"; };
 		E8CC36562519D0AE0067088C /* AVPlayer+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Additions.swift"; sourceTree = "<group>"; };
-		EF9B72634EF7237749FA60E5 /* Pods-TapAdditionsKitV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapAdditionsKitV2.debug.xcconfig"; path = "Target Support Files/Pods-TapAdditionsKitV2/Pods-TapAdditionsKitV2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,28 +165,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1A9B843BB101A9958FC757D /* Pods_TapAdditionsKitV2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7EDC1B961A41F98E7E3A9909 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				17899EBECD762AFFACD77185 /* Pods_TapAdditionsKitV2.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		E8CC35E42519CFDF0067088C = {
 			isa = PBXGroup;
 			children = (
 				E8CC35F02519CFDF0067088C /* TapAdditionsKitV2 */,
 				E8CC35EF2519CFDF0067088C /* Products */,
-				F9A769D26041B2520315200C /* Pods */,
-				7EDC1B961A41F98E7E3A9909 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -249,6 +236,7 @@
 		E8CC36142519D0AE0067088C /* Tap */ = {
 			isa = PBXGroup;
 			children = (
+				E808C64A2A94EB6500E56B26 /* ThreadingFixes.swift */,
 				E8CC36152519D0AE0067088C /* ClassProtocol.swift */,
 				E8CC36162519D0AE0067088C /* TypeAlias.swift */,
 				E8CC36172519D0AE0067088C /* Line.swift */,
@@ -368,15 +356,6 @@
 			path = AVFoundation;
 			sourceTree = "<group>";
 		};
-		F9A769D26041B2520315200C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EF9B72634EF7237749FA60E5 /* Pods-TapAdditionsKitV2.debug.xcconfig */,
-				30F723EC7E6F268C3E1A8DF9 /* Pods-TapAdditionsKitV2.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -395,7 +374,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8CC35F62519CFDF0067088C /* Build configuration list for PBXNativeTarget "TapAdditionsKitV2" */;
 			buildPhases = (
-				EA5486B82CD4314669CDE865 /* [CP] Check Pods Manifest.lock */,
 				E8CC35E92519CFDF0067088C /* Headers */,
 				E8CC35EA2519CFDF0067088C /* Sources */,
 				E8CC35EB2519CFDF0067088C /* Frameworks */,
@@ -421,6 +399,7 @@
 				TargetAttributes = {
 					E8CC35ED2519CFDF0067088C = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -451,31 +430,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		EA5486B82CD4314669CDE865 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TapAdditionsKitV2-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E8CC35EA2519CFDF0067088C /* Sources */ = {
@@ -518,6 +472,7 @@
 				E8CC36922519D0AE0067088C /* MemoryLayout+Additions.swift in Sources */,
 				E8CC365C2519D0AE0067088C /* NumberFormatter+Additions.swift in Sources */,
 				E8CC367C2519D0AE0067088C /* UITableView+Additions.swift in Sources */,
+				E808C64B2A94EB6500E56B26 /* ThreadingFixes.swift in Sources */,
 				E8CC36952519D0AE0067088C /* OptionSet+Additions.swift in Sources */,
 				E8CC369B2519D0AE0067088C /* Dictionary+Additions.swift in Sources */,
 				E8CC36932519D0AE0067088C /* Comparable+Additions.swift in Sources */,
@@ -611,7 +566,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -669,7 +624,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -683,8 +638,8 @@
 		};
 		E8CC35F72519CFDF0067088C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF9B72634EF7237749FA60E5 /* Pods-TapAdditionsKitV2.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -695,7 +650,7 @@
 				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = TapAdditionsKitV2/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -707,6 +662,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tap.TapAdditionsKitV2;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -714,8 +670,8 @@
 		};
 		E8CC35F82519CFDF0067088C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30F723EC7E6F268C3E1A8DF9 /* Pods-TapAdditionsKitV2.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -726,7 +682,7 @@
 				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = TapAdditionsKitV2/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
