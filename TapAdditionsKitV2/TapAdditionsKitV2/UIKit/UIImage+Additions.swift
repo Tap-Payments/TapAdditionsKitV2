@@ -24,7 +24,7 @@ import class	CoreImage.CIImage.CIImage
 import var		CoreImage.kCIInputImageKey
 import var		CoreImage.kCIOutputImageKey
 
-import func		Darwin.C.math.lrint
+import func		Darwin.lrint
 import struct	Darwin.C.stddef.size_t
 import func		Darwin.fabs
 import func		Darwin.floor

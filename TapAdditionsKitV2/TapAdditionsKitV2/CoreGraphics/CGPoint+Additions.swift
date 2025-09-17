@@ -6,12 +6,12 @@
 //
 
 import CoreGraphics
-import func		Darwin.C.math.atan
-import func		Darwin.C.math.ceil
-import func		Darwin.C.math.cos
-import func		Darwin.C.math.floor
-import func		Darwin.C.math.sin
-import func		Darwin.C.math.sqrt
+import func		Darwin.atan
+import func		Darwin.ceil
+import func		Darwin.cos
+import func		Darwin.floor
+import func		Darwin.sin
+import func		Darwin.sqrt
 import struct	OpenGLES.gltypes.GLfloat
 
 /// Useful extension for CGPoint.
