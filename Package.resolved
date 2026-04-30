@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "tapswiftfixesv2",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Tap-Payments/TapSwiftFixesV2.git",
+      "state" : {
+        "revision" : "bfc7e08d2aaeca0f788b7780ae43983adf79186a",
+        "version" : "1.0.4"
+      }
+    }
+  ],
+  "version" : 2
+}

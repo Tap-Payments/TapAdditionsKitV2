@@ -7,6 +7,7 @@
 
 import class	UIKit.NSLayoutConstraint.NSLayoutConstraint
 import class	UIKit.UIView.UIView
+import Foundation
 
 public extension NSLayoutConstraint {
     
