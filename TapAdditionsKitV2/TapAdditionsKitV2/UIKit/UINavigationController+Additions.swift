@@ -10,6 +10,7 @@ import class	QuartzCore.CATransaction.CATransaction
 import func		TapSwiftFixesV2.performOnMainThread
 import class	UIKit.UINavigationController.UINavigationController
 import class	UIKit.UIViewController.UIViewController
+import Dispatch
 
 /// Useful extension to UINavigationController
 public extension UINavigationController {

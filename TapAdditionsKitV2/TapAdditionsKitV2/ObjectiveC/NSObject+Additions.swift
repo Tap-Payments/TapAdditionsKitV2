@@ -8,6 +8,7 @@
 import struct	Foundation.NSDate.TimeInterval
 import class	ObjectiveC.NSObject.NSObject
 import struct	ObjectiveC.Selector
+import Dispatch
 
 /// Some extensions to NSObject.
 public extension NSObject {
